@@ -14,8 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dev-story",
-  description: "This app showing developer life story around the world.",
+  title: "Dev-Story | Share Your Developer Journey",
+  description: "Empowering developers worldwide through shared experiences, stories, and tutorials. Join our community and share your coding journey.",
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' }
+    ],
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({ children }) {
